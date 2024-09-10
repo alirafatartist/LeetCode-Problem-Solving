@@ -18,5 +18,5 @@ var mySqrt = function (x) {
   let sqr = Math.sqrt(x);
   return (x % sqr) !== 0 ? Math.floor(sqr) : sqr;
 };
-console.log(mySqrt(4));
-console.log(mySqrt(8));
+console.log(mySqrt(4)); // 2
+console.log(mySqrt(8)); // 2
